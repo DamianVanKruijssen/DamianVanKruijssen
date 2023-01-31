@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV Damian Van Kruijssen</title>
+    <link rel="stylesheet" href="css/styles_cv.css">
+</head>
+<body>
+    <!--Menu encabezado-->
+    <div class="contenedor_header">
+        <header>
+            <div class="logo">
+                <a href="#">Hi there! I'm</a> <i class="fa-sharp fa-solid fa-arrow-down"></i> 
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">TOP</a></li>
+                    <li><a href="#sobre_mi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">RESUME</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav_responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+        </header>
+    </div>
+
+    <!--Seccion TOP-->
+    <section id="inicio" class="inicio">
+        <div class="contenido_banner">
+            <div class="contenedor_img">
+                <img src="img/perfil.png" alt="">
+            </div>
+            <h1>Damián Esteban Van Kruijssen</h1>
+            <h2>Higher Technician in Software Development</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/dami_vk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=543412288145" target="_blank"><i class="fa-brands fa-whatsapp" target="_blank"></i></a>
+                <a href="https://www.linkedin.com/in/damian-van-kruijssen-4ba540264/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Seccion ABOUT ME-->
+    <section id="sobre_mi" class="sobre_mi">
+        <div class="contenido_seccion">
+            <h2>About me</h2>
+            <p><span>Hi there! I'm Damián Van Kruijssen</span> a 26 years old argentinian developer 
+                and I have been in academic training for four years, on my way to 
+                becoming a full-stack software developer. 
+                I am looking for my first work experience as a developer</p>
+            
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Date of birth</strong>
+                            04/10/1996
+                        </li>
+                        <li>
+                            <strong>Phone number</strong>
+                            3412288145
+                        </li>
+                        <li>
+                            <strong>E-mail</strong>
+                            vankruijssendamian@gmail.com
+                        </li>
+                        <li>
+                            <strong>Living in</strong>
+                            Roldan, Santa Fe, Argentina
+                        </li>
+                    </ul>
+                </div>
+
+                <!--Intereses-->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor_intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-film"></i>
+                            <span>MOVIES AND SERIES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-sharp fa-solid fa-person-biking"></i>
+                            <span>ADVENTURE CYCLING</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Seccion SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido_seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Knowledge</h3>
+                    <div class="item izq">
+                        <div class="skill">
+                            <span>Python</span>
+                        </div>
+                        <div class="skill">
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill">
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill">
+                            <span>Git</span>
+                        </div>
+                        <div class="skill">
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill">
+                            <span>Scrum</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Interpersonal skills</h3>
+                    <div class="item der">
+                        <div class="skill">
+                            <span>Responsibility</span>
+                        </div>
+                        <div class="skill">
+                            <span>Adaptability</span>
+                        </div>
+                        <div class="skill">
+                            <span>Problem resolution</span>
+                        </div>
+                        <div class="skill">
+                            <span>Teamwork</span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Seccion SKILLS-->
+    <section class="curriculum" id="curriculum">
+        <div class="contenido_seccion">
+            <h2>Resume</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Academic training</h3>
+                    <div class="item izq">
+                        <h4>Higher Technician in Software Development</h4>
+                        <span class="casa">Higher Institute No. 4038 John Paul II</span>
+                        <span class="fecha">2020 - 2023</span>
+                        <p>DETALLE</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Training of the Ministry of Productive Development of the Nation - "#SeProgramar"
+                        </h4>
+                        <span class="casa">Remote course platform</span>
+                        <span class="fecha">2022</span>
+                        <p>DETALLE</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>
+                            National plan in programming and software by the Ministry of Economy of the Nation "Argentina Programa 4.0"</h4>
+                        <span class="casa">Remote course platform</span>
+                        <span class="fecha">2023</span>
+                        <p>DETALLE</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Goals and purpose</h3>
+                    <div class="item der">
+                        <h4>Become a professional</h4>
+                        <span class="casa">Higher Institute No. 4038 John Paul II</span>
+                        <span class="fecha">2020 - 2023</span>
+                        <p>DETALLE</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>    
+                </div>
+
+    </section>
+
+    <!--Seccion CONTACT-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <div class="col">
+                    <form action="https://formsubmit.co/vankruijssendamian@gmail.com" method="POST">
+                        <input type="text" name = "Name" placeholder="Name">
+                        <input type="text" name = "Phone number" placeholder="Phone number">
+                        <input type="text" name = "E-mail" placeholder="E-mail">
+                        <input type="text" name = "Query" placeholder="Query">
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button type="submit" value="Enviar">
+                            Send Message <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="col">
+                    <img src="img/maps.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Independencia 837, Roldan, Santa Fe
+                            </li>   
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Call me: 3412288145
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-mail: vankruijssendamian@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+                <a href="https://www.instagram.com/dami_vk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=543412288145" target="_blank"><i class="fa-brands fa-whatsapp" target="_blank"></i></a>
+                <a href="https://www.linkedin.com/in/damian-van-kruijssen-4ba540264/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <button>
+                Download resume <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>        
+        </div>
+
+    </footer>
+
+    <script src="js/script_cv.js"></script>
+</body>
+</html>
