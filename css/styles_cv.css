@@ -87,9 +87,9 @@ html{
     margin-top: 40px;
     border: 10px solid #5EE2E4;
     display: block;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    border-radius: 100%;
+    border-radius: 10%;
 }
 
 .inicio .contenido_banner h1{
@@ -429,7 +429,7 @@ html{
 }
 
 .contacto .col{
-    width: 50%;
+    width: 100%;
     padding: 10px;
     position: relative;
 }
@@ -548,34 +548,6 @@ footer .redes a:hover{
     background-color:#5EE2E4;
 }
 
-footer button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid azure;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: azure;
-    position: relative;
-    z-index: 10;
-}
-
-footer button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #5EE2E4;
-    z-index: -1;
-    transition: 1s;
-}
-
-footer button:hover .overlay{
-    width: 100%;
-}
 
 /* SECCION RESPONSIVE */
 
